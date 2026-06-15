@@ -18,6 +18,8 @@ func RepeatAlpha(str string) string {
 					newStr += strings.Repeat(string(v), j+1)
 				}
 			}
+		} else {
+			newStr+=val
 		}
 	}
 
